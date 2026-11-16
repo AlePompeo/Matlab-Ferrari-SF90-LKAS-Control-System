@@ -1,5 +1,9 @@
 # 🏎️ LKAS — Lane Keeping Assist System per Ferrari SF90 Stradale
 
+> **Lane-keeping control system (SISO) designed in MATLAB/Simulink** on a bicycle model with the dynamic parameters of a Ferrari SF90 Stradale: feedback controller, notch filter for sinusoidal disturbance rejection, sensitivity-function analysis. University project (Automatic Controls course), Italian documentation; the full report is included as PDF.
+
+![MATLAB](https://img.shields.io/badge/MATLAB-Simulink-E16737?logo=mathworks&logoColor=white) ![Control](https://img.shields.io/badge/Control-SISO%20%C2%B7%20notch%20filter-8a2be2) ![License](https://img.shields.io/badge/License-MIT-green)
+
 Progetto universitario per il corso di **Controlli Automatici** — progettazione di un sistema di controllo **SISO** per il mantenimento della corsia (**Lane Keeping Assist System**) modellato sui parametri dinamici reali della **Ferrari SF90 Stradale**, implementato in MATLAB con la Control System Toolbox.
 
 ---
@@ -159,3 +163,13 @@ Lo script è strutturato in sezioni (`%%`) eseguibili separatamente con **Run Se
 - Tutti i poli della `Wyr` a parte reale negativa — sistema **asintoticamente stabile**
 - Reiezione efficace del disturbo sinusoidale `n(t)` grazie al filtro notch centrato a 3 Hz
 - Specifiche di assestamento, errore a regime e sovraelongazione soddisfatte con il filtro `Fr` attivo
+
+---
+
+## 📄 Licenza
+
+MIT, vedi [`LICENSE`](LICENSE).
+
+---
+
+*Keywords: LKAS, lane keeping assist, control systems, automatic control, MATLAB, Simulink, bicycle model, notch filter, sensitivity functions, automotive, Ferrari SF90, university project.*
